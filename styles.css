@@ -1,0 +1,107 @@
+main {
+    margin: 5em;
+    padding: 6em 12em;
+    background-color: #eeeeee;
+}
+.group1, .group2, .group3 {
+    display: flex;
+}
+div {
+    margin: 1em;
+}
+.triup {
+    width: max-content;
+    border-bottom: 5rem solid gray;
+    border-left: 3rem solid transparent;
+    border-right: 3rem solid transparent;
+}
+.tridown {
+    width: max-content;
+    border-top: 5rem solid gray;
+    border-left: 3rem solid transparent;
+    border-right: 3rem solid transparent;
+    position: relative;
+    top: 1em;
+}
+.triright {
+    width: max-content;
+    border-bottom: 3rem solid transparent;
+    border-left: 5rem solid gray;
+    border-top: 3rem solid transparent;
+}
+.trileft {
+    width: max-content;
+    border-bottom: 3rem solid transparent;
+    border-top: 3rem solid transparent;
+    border-right: 5rem solid gray;
+}
+.tri2up {
+    width: max-content;
+    border-bottom: 2rem solid gray;
+    border-left: 3rem solid transparent;
+    border-right: 3rem solid transparent;
+}
+.tri2down {
+    width: max-content;
+    border-top: 2rem solid gray;
+    border-left: 3rem solid transparent;
+    border-right: 3rem solid transparent;
+    position: relative;
+    top: 4em;
+}
+.tri2right {
+    width: max-content;
+    border-bottom: 3rem solid transparent;
+    border-left: 3rem solid gray;
+    border-top: 3rem solid transparent;
+}
+.tri2left {
+    width: max-content;
+    border-bottom: 3rem solid transparent;
+    border-top: 3rem solid transparent;
+    border-right: 3rem solid gray;
+}
+.tri3up {
+    width: max-content;
+    border-bottom: 4.5rem solid gray;
+    border-right: 3rem solid transparent;
+}
+.tri33up {
+    width: max-content;
+    border-bottom: 4.5rem solid gray;
+    border-left: 3rem solid transparent;
+}
+.tri3down {
+    width: max-content;
+    border-top: 4.5rem solid gray;
+    border-left: 3rem solid transparent;
+}
+.tri33down {
+    width: max-content;
+    border-top: 4.5rem solid gray;
+    border-right: 3rem solid transparent;
+}
+.tri3right {
+    width: max-content;
+    border-top: 2.5rem solid gray;
+    border-left: 4.5rem solid transparent;
+    position: relative;
+    top: 1.6em;
+}
+.tri33right {
+    width: max-content;
+    border-top: 2.5rem solid gray;
+    border-right: 4.5rem solid transparent;
+    position: relative;
+    top: 1.6em;
+}
+.tri3left {
+    width: max-content;
+    border-bottom: 2.5rem solid gray;
+    border-left: 4.5rem solid transparent;
+}
+.tri33left {
+    width: max-content;
+    border-bottom: 2.5rem solid gray;
+    border-right: 4.5rem solid transparent;
+}
